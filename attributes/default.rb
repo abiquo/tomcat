@@ -23,7 +23,7 @@ default["tomcat"]["jvm_route"] = "tomcat"
 default["tomcat"]["java_options"] = "-Xmx128M -Djava.awt.headless=true"
 default["tomcat"]["use_security_manager"] = false
 default["tomcat"]["authbind"] = "no"
-default["tomcat"]["db"]["jdbc_name"] = "jdbc/AbiquoDB"
+default["tomcat"]["db"]["jdbc_name"] = "jdbc/abiquoDB"
 default["tomcat"]["db"]["host"] = "localhost"
 default["tomcat"]["db"]["port"] = 3306
 default["tomcat"]["db"]["user"] = "root"

@@ -72,11 +72,3 @@ template "/etc/tomcat6/server.xml" do
   notifies :restart, resources(:service => "tomcat")
 end
 
-template "/etc/tomcat6/context.xml" do
-  source "context.xml.erb"
-  owner "root"
-  group "root"
-  mode "0644"
-  notifies :restart, resources(:service => "tomcat")
-end
-
